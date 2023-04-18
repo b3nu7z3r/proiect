@@ -75,10 +75,10 @@ void print_menu()
 void clear_screen()
 {
     // for linux
-    std::system("clear");
+    //std::system("clear");
 
     //for windows
-    //std::system("cls");
+    std::system("cls");
 }
 
 void pause_program()
